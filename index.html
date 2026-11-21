@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="শফিউল ইসলামের ডিজিটাল পরিচয়—ডিজাইন, ডেভেলপমেন্ট ও AI-চালিত প্রোডাক্ট সম্পর্কে কাজ ও অভিজ্ঞতা।">
-  <meta property="og:title" content="Shafiul Islam — Digital Product Builder">
-  <meta property="og:description" content="জটিল সমস্যাকে সহজ, সুন্দর ও ব্যবহারযোগ্য প্রোডাক্টে বদলাই।">
+  <meta name="description" content="মোঃ শাফিউল ইসলামের ব্যক্তিগত ওয়েবসাইট ও প্রজেক্ট।">
+  <meta property="og:title" content="মোঃ শাফিউল ইসলাম">
+  <meta property="og:description" content="Developer — মোঃ শাফিউল ইসলাম">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#f4f2ed">
-  <title>Shafiul Islam — Digital Product Builder</title>
+  <title>মোঃ শাফিউল ইসলাম | Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,11 +18,12 @@
       <span></span><span></span>
     </button>
     <nav class="nav" aria-label="প্রধান নেভিগেশন">
-      <a href="#about">সম্পর্কে</a>
-      <a href="#work">কাজ</a>
-      <a href="#experience">অভিজ্ঞতা</a>
-      <a href="#contact">যোগাযোগ</a>
+      <a href="#about" data-i18n="navAbout">সম্পর্কে</a>
+      <a href="#work" data-i18n="navWork">কাজ</a>
+      <a href="#experience" data-i18n="navExperience">অভিজ্ঞতা</a>
+      <a href="#contact" data-i18n="navContact">যোগাযোগ</a>
     </nav>
+    <button class="language-toggle" type="button" aria-label="Change language">EN</button>
     <button class="theme-toggle" type="button" aria-label="ডার্ক মোড চালু করুন">
       <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
     </button>
@@ -31,12 +32,12 @@
   <main>
     <section class="hero" id="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> কাজের জন্য প্রস্তুত · বাংলাদেশ</p>
-        <h1>ভাবনা থেকে<br><em>বাস্তব</em> প্রোডাক্ট।</h1>
-        <p class="hero-text">আমি শফিউল ইসলাম—ডিজাইন ও কোডের মাধ্যমে জটিল সমস্যাকে সহজ, সুন্দর এবং মানুষের কাজে লাগানো অভিজ্ঞতায় বদলাই।</p>
+        <p class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">ওয়েব ডেভেলপার · Developer</span></p>
+        <h1 data-i18n="heroTitle">মোঃ শাফিউল<br><em>ইসলাম</em></h1>
+        <p class="hero-text" data-i18n="heroText">আমি একজন ডেভেলপার। ওয়েব ও ডিজিটাল প্রোডাক্ট তৈরি এবং উন্নয়নে কাজ করি।</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#work">আমার কাজ <span>↗</span></a>
-          <a class="button button-secondary" href="#contact">কথা বলুন</a>
+          <a class="button button-primary" href="#work"><span data-i18n="viewWork">আমার কাজ</span> <span>↗</span></a>
+          <a class="button button-secondary" href="#contact" data-i18n="contactMe">যোগাযোগ করুন</a>
         </div>
       </div>
 
@@ -56,118 +57,59 @@
     </section>
 
     <section class="intro strip" id="about">
-      <div class="section-label"><span>01</span> পরিচিতি</div>
+      <div class="section-label"><span>01</span><span data-i18n="sectionAbout">পরিচিতি</span></div>
       <div class="intro-copy">
-        <h2>আমি মানুষের প্রয়োজন বুঝে, <em>গভীরভাবে চিন্তা করে</em> ডিজিটাল প্রোডাক্ট তৈরি করি।</h2>
+        <h2 data-i18n="aboutHeading">আমি মোঃ শাফিউল ইসলাম। <em>ওয়েব ডেভেলপমেন্ট</em> ও প্রোডাক্ট তৈরিতে আগ্রহী।</h2>
         <div class="intro-details">
-          <p>ডিজাইন, ফ্রন্টএন্ড ডেভেলপমেন্ট এবং প্রোডাক্ট স্ট্র্যাটেজি—এই তিনটির মাঝামাঝি থেকে আমি কাজ করি। প্রতিটি সিদ্ধান্তের পেছনে থাকে ব্যবহারকারীর স্বচ্ছ প্রয়োজন এবং মাপযোগ্য ফলাফল।</p>
-          <a class="text-link" href="#experience">আরও জানুন <span>→</span></a>
+          <p data-i18n="aboutText">এখানে আমার কাজের ধরন, দক্ষতা ও প্রজেক্ট সম্পর্কে সংক্ষিপ্তভাবে লিখতে পারেন।</p>
+          <a class="text-link" href="#experience"><span data-i18n="learnMore">আরও জানুন</span> <span>→</span></a>
         </div>
       </div>
     </section>
 
     <section class="work strip" id="work">
       <div class="section-heading">
-        <div class="section-label"><span>02</span> নির্বাচিত কাজ</div>
-        <p>২০২৩—২০২৬</p>
+        <div class="section-label"><span>02</span><span data-i18n="sectionWork">নির্বাচিত কাজ</span></div>
+        <button class="manage-projects" type="button" id="manageProjects" data-i18n="manageProjects">পোর্টফোলিও যোগ করুন</button>
       </div>
-      <div class="project-grid">
-        <article class="project project-featured">
-          <a class="project-image" href="#" aria-label="Finova কেস স্টাডি">
-            <div class="mockup mockup-finova">
-              <div class="mockup-sidebar"><span></span><i></i><i></i><i></i><i></i></div>
-              <div class="mockup-main">
-                <div class="mockup-top"><b>Overview</b><span>•••</span></div>
-                <div class="balance-card"><small>Total balance</small><strong>$24,680.00</strong><div class="mini-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
-              </div>
-            </div>
-            <span class="project-arrow">↗</span>
-          </a>
-          <div class="project-meta">
-            <div><p>ডিজিটাল ব্যাংকিং</p><h3>Finova</h3></div>
-            <p class="project-result"><strong>+32%</strong> ব্যবহারকারী এনগেজমেন্ট</p>
-          </div>
-        </article>
-
-        <article class="project">
-          <a class="project-image" href="#" aria-label="Nexus কেস স্টাডি">
-            <div class="mockup mockup-nexus">
-              <div class="nexus-nav"><b>NEXUS</b><span>Projects &nbsp; Team &nbsp; <i>⌕</i></span></div>
-              <div class="nexus-content"><small>Q4 CAMPAIGN</small><strong>Creative<br>Momentum</strong><div class="nexus-orb"></div></div>
-            </div>
-            <span class="project-arrow">↗</span>
-          </a>
-          <div class="project-meta">
-            <div><p>প্রোডাক্ট ও ব্র্যান্ড</p><h3>Nexus Agency</h3></div>
-            <p class="project-result"><strong>3×</strong> দ্রুত হিসাব</p>
-          </div>
-        </article>
-
-        <article class="project">
-          <a class="project-image" href="#" aria-label="Ora কেস স্টাডি">
-            <div class="mockup mockup-ora">
-              <div class="ora-phone"><div class="phone-speaker"></div><small>Good morning</small><strong>48<sup>°</sup></strong><div class="ora-forecast"><i></i><i></i><i></i></div></div>
-              <div class="ora-copy">WEATHER<br><b>BEYOND<br>THE FORECAST</b></div>
-            </div>
-            <span class="project-arrow">↗</span>
-          </a>
-          <div class="project-meta">
-            <div><p>মোবাইল অ্যাপ</p><h3>Ora Weather</h3></div>
-            <p class="project-result"><strong>4.8★</strong> অ্যাপ স্টোর রেটিং</p>
-          </div>
-        </article>
+      <div class="project-grid" id="projectGrid"></div>
+      <div class="empty-projects" id="emptyProjects">
+        <p data-i18n="emptyProjects">এখনও কোনো প্রজেক্ট যোগ করা হয়নি।</p>
+        <button type="button" class="button button-primary" id="addFirstProject" data-i18n="addProject">প্রজেক্ট যোগ করুন</button>
       </div>
     </section>
 
     <section class="experience strip" id="experience">
-      <div class="section-label"><span>03</span> অভিজ্ঞতা</div>
+      <div class="section-label"><span>03</span><span data-i18n="sectionExperience">অভিজ্ঞতা</span></div>
       <div class="experience-list">
         <article>
-          <p class="period">২০২৪—বর্তমান</p>
-          <div><h3>সিনিয়র প্রোডাক্ট ডিজাইনার</h3><p>Independent / Dhaka</p></div>
-          <p class="detail">নিজস্ব উদ্যোগ ও বৈশ্বিক ক্লায়েন্টদের জন্য ডিজাইন সিস্টেম, ওয়েব অভিজ্ঞতা এবং কনসালটিং।</p>
-        </article>
-        <article>
-          <p class="period">২০২২—২০২৪</p>
-          <div><h3>প্রোডাক্ট ডিজাইনার</h3><p>Creative Studio / Bangladesh</p></div>
-          <p class="detail">ফিনটেক, SaaS এবং ই-কমার্স প্রোডাক্টের জন্য গবেষণা থেকে ব্যবহারের প্রস্তুতি পর্যন্ত কাজ।</p>
-        </article>
-        <article>
-          <p class="period">২০২০—২০২২</p>
-          <div><h3>ফ্রন্টএন্ড ডেভেলপার</h3><p>Digital Agency / Chattogram</p></div>
-          <p class="detail">প্রতিষ্ঠানের ওয়েবসাইট, অ্যাপ্লিকেশন ও রেসপন্সিভ ইন্টারফেস ডেভেলপমেন্ট।</p>
+          <p class="period" data-i18n="experiencePeriod">আপনার সময়কাল</p>
+          <div><h3 data-i18n="experienceRole">আপনার পদবি</h3><p data-i18n="experienceOrg">প্রতিষ্ঠান বা স্বনির্ভর কাজ</p></div>
+          <p class="detail" data-i18n="experienceDetail">এখানে কাজের সংক্ষিপ্ত বর্ণনা লিখুন। আপনার নিজস্ব প্রকল্প ও অর্জন অনুযায়ী তথ্য দিন।</p>
         </article>
       </div>
     </section>
 
     <section class="skills strip">
-      <div class="section-label"><span>04</span> দক্ষতা</div>
+      <div class="section-label"><span>04</span><span data-i18n="sectionSkills">দক্ষতা</span></div>
       <div class="skill-cloud" aria-label="দক্ষতার তালিকা">
-        <span>Product Strategy</span>
-        <span>UX Research</span>
-        <span>UI Design</span>
-        <span>Figma</span>
-        <span>Design Systems</span>
-        <span>HTML & CSS</span>
+        <span>HTML</span>
+        <span>CSS</span>
         <span>JavaScript</span>
-        <span>React</span>
-        <span>AI Automation</span>
-        <span>Prototyping</span>
+        <span>Web Development</span>
+        <span>Git & GitHub</span>
       </div>
     </section>
 
     <section class="contact strip" id="contact">
       <div class="contact-copy">
-        <p class="section-label"><span>05</span> যোগাযোগ</p>
-        <h2>একটি ভালো আইডিয়া<br>আছে? <em>শুরু করা যাক।</em></h2>
+        <p class="section-label"><span>05</span><span data-i18n="sectionContact">যোগাযোগ</span></p>
+        <h2 data-i18n="contactHeading">চলুন কথা বলি।</h2>
       </div>
       <div class="contact-side">
-        <p>একটি প্রকল্প, একটি অজানা সুযোগ, বা শুধু পরিচিতি—যাই হোক না কেন, আমি উত্তর দিতে পছন্দ করি।</p>
-        <a class="email-link" href="mailto:hello@shafiul.dev"><span>hello@shafiul.dev</span><b>↗</b></a>
+        <p data-i18n="contactText">প্রকল্প, কাজ বা সহযোগিতার বিষয়ে যোগাযোগ করুন।</p>
         <div class="social-links">
           <a href="https://github.com/shafiul-eng" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
-          <a href="#" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
-          <a href="#" target="_blank" rel="noreferrer">X / Twitter <span>↗</span></a>
         </div>
       </div>
     </section>
@@ -175,9 +117,34 @@
 
   <footer>
     <a class="brand" href="#home">SI<span>.</span></a>
-    <p>© 2026 Shafiul Islam</p>
-    <a class="back-to-top" href="#home">উপরে যান <span>↑</span></a>
+    <p>© 2026 Md. Shafiul Islam</p>
+    <a class="back-to-top" href="#home"><span data-i18n="backTop">উপরে যান</span> <span>↑</span></a>
   </footer>
+
+  <dialog class="project-dialog" id="projectDialog">
+    <form id="projectForm" novalidate>
+      <div class="dialog-header">
+        <div>
+          <p class="dialog-kicker" data-i18n="portfolioManager">পোর্টফোলিও ম্যানেজার</p>
+          <h2 data-i18n="addProject">প্রজেক্ট যোগ করুন</h2>
+        </div>
+        <button type="button" class="dialog-close" id="closeDialog" aria-label="বন্ধ করুন">×</button>
+      </div>
+      <div class="form-grid">
+        <label><span data-i18n="projectTitle">প্রজেক্টের নাম</span><input name="title" required maxlength="80"></label>
+        <label><span data-i18n="projectCategory">ক্যাটাগরি</span><input name="category" maxlength="80"></label>
+        <label class="full"><span data-i18n="projectDescription">সংক্ষিপ্ত বিবরণ</span><textarea name="description" rows="4" maxlength="400"></textarea></label>
+        <label class="full"><span data-i18n="projectUrl">লাইভ লিংক বা GitHub URL</span><input name="url" type="url" placeholder="https://"></label>
+        <label class="full upload-field"><span data-i18n="projectImage">প্রজেক্টের ছবি</span><input name="image" type="file" accept="image/png,image/jpeg,image/webp"></label>
+      </div>
+      <p class="form-error" id="formError" role="alert"></p>
+      <div class="dialog-actions">
+        <button type="button" class="button button-secondary" id="exportProjects" data-i18n="exportProjects">Export JSON</button>
+        <label class="button button-secondary import-button"><span data-i18n="importProjects">Import JSON</span><input id="importProjects" type="file" accept=".json,application/json"></label>
+        <button type="submit" class="button button-primary" data-i18n="saveProject">সেভ করুন</button>
+      </div>
+    </form>
+  </dialog>
 
   <script src="script.js"></script>
 </body>
