@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 900" role="img" aria-label="শফিউল ইসলামের পোর্ট্রেট">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d9d7ca"/>
+      <stop offset="1" stop-color="#aaa99d"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#242820"/>
+      <stop offset="1" stop-color="#0e100d"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="900" fill="url(#bg)"/>
+  <circle cx="555" cy="155" r="180" fill="#cdd28f" opacity=".38"/>
+  <path d="M92 900c28-210 116-325 258-325 147 0 238 112 266 325z" fill="url(#shirt)"/>
+  <path d="M278 555c30 43 113 43 143 0l12 78c-45 44-122 44-169 0z" fill="#a56f50"/>
+  <ellipse cx="349" cy="392" rx="168" ry="210" fill="#b98360"/>
+  <path d="M183 365c-18-170 65-272 177-272 130 0 205 104 183 279-48-70-96-91-174-96-70-4-128 28-186 89z" fill="#181916"/>
+  <path d="M199 348c-26 3-48 34-43 74 5 41 33 65 64 56zM500 348c27 3 48 34 43 74-5 41-32 65-64 56z" fill="#b98360"/>
+  <ellipse cx="292" cy="402" rx="18" ry="10" fill="#292820"/>
+  <ellipse cx="407" cy="402" rx="18" ry="10" fill="#292820"/>
+  <path d="M349 411c-5 34-15 66-28 91 18 12 43 12 61-1" fill="none" stroke="#8f6048" stroke-width="8" stroke-linecap="round"/>
+  <path d="M292 535c36 27 80 27 116 0" fill="none" stroke="#f1eee3" stroke-width="12" stroke-linecap="round"/>
+  <path d="M239 365c31-22 72-27 106-8M365 357c35-19 72-13 99 8" fill="none" stroke="#292820" stroke-width="12" stroke-linecap="round"/>
+  <path d="M198 287c48-66 109-91 181-90 86 2 148 43 180 113-6-157-78-246-210-246-118 0-190 78-151 223z" fill="#181916"/>
+  <path d="M170 900V726c78-70 279-70 359 0v174z" fill="#252921" opacity=".28"/>
+</svg>
